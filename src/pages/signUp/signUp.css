@@ -1,0 +1,86 @@
+.bg-gradient-orange-to-yellow {
+  background: linear-gradient(to left, yellow, orange) !important;
+}
+
+.my-p-15px {
+  padding-block: 15px;
+}
+.my-h-92 {
+  height: 92vh;
+}
+.my-rounded-20px {
+  border-radius: 20px !important;
+}
+.my-orange-bg {
+  background-color: rgba(254, 175, 0, 1) !important   ;
+}
+.my-bg-light {
+  background-color: rgba(255, 255, 255, 1);
+}
+.my-orange-color {
+  color: rgba(254, 175, 0, 1) !important   ;
+}
+.my-border-none {
+  border: none !important;
+}
+.my-color-dark {
+  color: rgba(108, 108, 108, 1) !important;
+}
+input::placeholder {
+  color: rgba(205, 205, 205, 1) !important;
+}
+.my-dashed-border {
+  border: dashed 1px rgba(56, 78, 183, 0.3) !important;
+}
+.my-blue-bg {
+  background-color: rgba(248, 248, 255, 1) !important;
+}
+.my-mt-42px {
+  margin-top: 42px !important;
+}
+.my-pointer {
+  cursor: pointer;
+}
+
+.my-scroll-box {
+  scrollbar-width: thin;
+  scrollbar-color: #ffb100 #ffffff;
+}
+
+.my-scroll-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.my-scroll-box::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+
+.my-scroll-box::-webkit-scrollbar-thumb {
+  background-color: #ffb100;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.my-scroll-box::-webkit-scrollbar-thumb:hover {
+  background-color: #ffb100;
+}
+
+@media (min-width: 1200px) {
+  .my-w-33vw {
+    width: 33vw !important;
+  }
+}
+@media (max-width: 575px) {
+.my-pointer{
+    padding: 1px !important;
+}
+.my-pointer img{
+    width: 50% !important;
+}
+.my-sm-vh{
+  padding: 12px !important;
+}
+}
+

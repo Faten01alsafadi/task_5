@@ -1,0 +1,35 @@
+.my-pagination-btn {
+  border: none !important;
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  border-radius: 32px;
+}
+.my-prev-and-next img {
+  width: 100%;
+}
+
+.my-pagination-btn:hover,
+.my-pagination-btn:focus,
+.my-pagination-btn:active {
+  border: none !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  color: black !important;
+}
+
+.my-prev-and-next {
+  width: 40px;
+}
+.my-orange-hover:hover {
+  background-color: rgb(254, 175, 0) !important;
+}
+
+.btn:disabled {
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+@media screen and (max-width:575px) {
+  .custom-pagination{
+    display: flex;
+    justify-content: start !important
+    ;
+  } 
+}

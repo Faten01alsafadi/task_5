@@ -1,0 +1,55 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -250px; 
+  transition: left 0.3s ease;
+  z-index: 1000;
+  border-right: 1px solid #ddd;
+background-color: rgba(242, 234, 225, 1) !important;
+}
+.my-w-35{
+    width: 35%;
+}
+.my-orange-border-left{
+    border-left: 4px solid rgba(248, 212, 66, 1);
+}
+
+.my-orange-bg{
+    background-color: rgba(254, 175, 0, 1) !important   ;
+    
+}
+.logout:hover {
+color: rgb(250, 37, 37) !important;
+}
+@media screen and (max-width:575px) {
+  .nav{
+    margin-top: 20px !important;
+  }
+  .sidebar-img-container{
+    width: 50% ;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+.nav-link.active {
+  background-color: rgba(254, 175, 0, 1) !important; /* لون برتقالي فاتح مثلا */
+  
+  
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    left: 0 !important; /* تظهر دائمًا عالشاشات الكبيرة */
+  }
+}
+
+.show-sidebar {
+  left: 0 !important; /* تظهر عند الضغط عالزر */
+}

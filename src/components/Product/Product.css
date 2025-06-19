@@ -1,0 +1,72 @@
+.my-product-card {
+  border-radius: 16px;
+  width: 208px;
+  height: 208px;
+  cursor: pointer;
+  box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.my-product-img {
+  width: inherit;
+  height: inherit;
+}
+.my-bg-opicity {
+  background-color: rgba(242, 234, 225, 0.7);
+}
+.my-product-btn {
+  width: 90px;
+}
+.my-product-btn:hover {
+  opacity: 0.8;
+}
+.my-red-bg {
+  background-color: rgba(254, 0, 0, 1);
+}
+.my-red-bg:hover {
+  background-color: rgba(254, 0, 0, 1);
+}
+.layer {
+  top: -200px;
+  position: absolute;
+  transition: all 0.7s ease-out;
+}
+.my-product-card:hover .layer {
+  top: 0%;
+}
+
+.my-popup .modal-dialog {
+  max-width: 948px;
+  width: 90%;
+}
+
+.my-popup .modal-content {
+  min-height: 301px;
+  padding: 20px;
+}
+@media screen and (max-width: 675px) {
+  .my-confirm-btn {
+    width: 45px !important;
+    font-size: 16px !important;
+   
+  }
+  .my-popup .modal-content{
+    min-height: 230px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1448px) {
+  .my-product-card {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1290px) {
+  .my-product-card {
+    width: 160px;
+    height: 160px;
+  }
+}
+@media screen and (min-width: 995px) and (max-width: 1035px) {
+  .my-product-card {
+    width: 160px;
+    height: 160px;
+  }
+}

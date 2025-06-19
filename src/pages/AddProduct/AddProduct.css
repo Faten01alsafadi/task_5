@@ -1,0 +1,25 @@
+.my-div-click {
+  width: 46.7%;
+}
+input[type="number"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+.my-w-200px {
+  width: 200px;
+}
+.my-mt-120px {
+  margin-top: 13.3vh;
+}
+.my-mt-78px {
+  margin-top: 8.6vh;
+}
+@media screen and (min-width: 400px) and (max-width: 1000px) {
+  .my-mt-120px {
+    margin-top: 2vh;
+  }
+  .my-mt-78px {
+    margin-top: 3.6vh;
+  }
+}
