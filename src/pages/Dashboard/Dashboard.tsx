@@ -74,14 +74,12 @@ export default function Dashboard() {
 
   function updateItemsPerPage() {
     const width = window.innerWidth;
-    if (width <= 550) {
+    if (width <= 580) {
       setItemsPerPage(1);
-    } else if (width > 550 && width <= 600) {
+    } else if (width > 580 && width <= 800) {
       setItemsPerPage(2);
-    } else if (width > 600 && width <= 900) {
+    } else if (width > 800 && width <= 1100) {
       setItemsPerPage(4);
-    } else if (width > 900 && width <= 1100) {
-      setItemsPerPage(6);
     } else if (width > 1100 && width < 1200) {
       setItemsPerPage(9);
     } else {
@@ -158,7 +156,8 @@ export default function Dashboard() {
                 lg={4}
                 md={6}
                 sm={6}
-                className="my-my-iphone"
+                xs={12}
+                className="my-my-iphone d-flex justify-content-center"
               >
                 <div className="py-2">
                   <Product

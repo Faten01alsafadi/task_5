@@ -72,3 +72,15 @@ input::placeholder {
     width: 33vw !important;
   }
 }
+@media (max-width: 575px) {
+.my-pointer{
+    padding: 1px !important;
+}
+.my-pointer img{
+    width: 50% !important;
+}
+.my-sm-vh{
+  padding: 12px !important;
+}
+}
+

@@ -64,7 +64,7 @@ function AddProduct() {
       <Sidebar />
 
       <div className="my-ml-250px px-5 mt-sm-5 mt-md-2 ">
-        <Container>
+        <Container className="my-sm-container">
           <Button
             className=" prev-show-btn d-flex justify-content-center rounded-circle border-1 border-black mb-sm-4 mb-xl-2  mb-xxl-4"
             onClick={goToPreviousPage}

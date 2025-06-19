@@ -97,13 +97,13 @@ function Product({ name, image, id }: ProductProps) {
         </Modal.Body>
         <Modal.Footer className="d-flex justify-content-around w-50 m-auto">
           <Button
-            className="my-orange-bg border-0 w-25 fs-3"
+            className="my-confirm-btn my-orange-bg border-0 w-25 fs-3"
             onClick={() => setShowModal(false)}
           >
             No
           </Button>
           <Button
-            className="my-orange-bg border-0 w-25 fs-3"
+            className="my-confirm-btn  my-orange-bg border-0 w-25 fs-3"
             onClick={confirmDelete}
           >
             Yes

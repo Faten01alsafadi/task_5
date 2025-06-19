@@ -42,6 +42,16 @@
   min-height: 301px;
   padding: 20px;
 }
+@media screen and (max-width: 675px) {
+  .my-confirm-btn {
+    width: 45px !important;
+    font-size: 16px !important;
+   
+  }
+  .my-popup .modal-content{
+    min-height: 230px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1448px) {
   .my-product-card {
     width: 180px;

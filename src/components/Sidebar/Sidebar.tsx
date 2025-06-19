@@ -38,7 +38,7 @@ function Sidebar() {
           <img src="/assets/logo.svg" alt="Logo" className="w-100" />
         </div>
 
-        <div className="text-center mb-3">
+        <div className="sidebar-img-container text-center mb-3">
           <Image src={userImage ?? ""} roundedCircle className="w-50 mt-4" />
           <p className="mt-2 fw-bold">{userName}</p>
         </div>
@@ -76,13 +76,13 @@ function Sidebar() {
           </Nav.Link>
         </Nav>
 
-        <div className="mx-auto mt-auto pt-3">
+        <div className="logout mx-auto mt-auto pt-3 ">
           <Nav.Link
             onClick={logOut}
-            className="d-flex gap-3 w-100 m-auto text-dark fw-500 "
+            className="logout d-flex gap-3 w-100 m-auto text-dark fw-500 "
           >
             logout
-            <div className="text-center w-50 text-dark">
+            <div className=" text-center w-50 text-dark">
               <img src="/assets/Vector-3.svg" alt="" />
             </div>
           </Nav.Link>

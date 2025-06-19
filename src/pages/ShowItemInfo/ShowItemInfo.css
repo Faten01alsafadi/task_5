@@ -51,6 +51,24 @@
   .show-item span {
     font-size: 1.3rem !important;
   }
+  .ShowItemInfo h2{
+    display: block;
+  }
+  .info{
+    display: block !important;
+  }
+  .info h2{
+    font-size: 20px !important;
+  }
+  .prev-show-btn{
+    padding: 5px !important;
+    width: 27px;
+    height: 27px;
+  }
+  .my-sm-container{
+    margin-top: 55px;
+  }
+  
 }
 
 @media (max-height: 600px) and (max-width: 812px) {

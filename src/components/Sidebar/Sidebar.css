@@ -20,6 +20,18 @@ background-color: rgba(242, 234, 225, 1) !important;
     background-color: rgba(254, 175, 0, 1) !important   ;
     
 }
+.logout:hover {
+color: rgb(250, 37, 37) !important;
+}
+@media screen and (max-width:575px) {
+  .nav{
+    margin-top: 20px !important;
+  }
+  .sidebar-img-container{
+    width: 50% ;
+    margin: 0 auto;
+  }
+}
 
 
 

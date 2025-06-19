@@ -44,7 +44,7 @@ function CustomPagination({
 
   return (
     <Container>
-      <div className="d-flex flex-wrap justify-content-center align-items-center gap-2">
+      <div className="custom-pagination d-flex flex-wrap justify-content-center align-items-center gap-2">
         <Button
           className="my-pagination-btn d-flex justify-content-center align-items-center"
           disabled={currentPage === 1}

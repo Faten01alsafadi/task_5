@@ -50,7 +50,7 @@ function ShowItemInfo() {
     <div className=" ShowItemInfo">
       <Sidebar />
       {data ? (
-        <Container className="my-ml-250px px-5 mt-sm-5 mt-md-2 ">
+        <Container className="my-sm-container my-ml-250px px-5 mt-sm-5 mt-md-2 ">
           <div className="show-item w-100">
             <Button
               className=" prev-show-btn d-flex justify-content-center rounded-circle border-1 border-black mb-sm-4 mb-xl-2  mb-xxl-4"
@@ -70,7 +70,7 @@ function ShowItemInfo() {
               />
             </div>
 
-            <div className=" d-flex justify-content-around mt-sm-4 mt-md-auto">
+            <div className="info d-flex justify-content-around mt-sm-4 mt-md-auto">
               <h2 className="my-fs-60px fw-semibold ">
                 Price: <span className="fs-1">{data.price}$</span>
               </h2>
@@ -79,7 +79,7 @@ function ShowItemInfo() {
                 <span className="fs-1">{formatDate(data.created_at)}</span>
               </h2>
             </div>
-            <div className="d-flex justify-content-center mt-sm-2 mt-md-auto">
+            <div className="info d-flex justify-content-center mt-sm-2 mt-md-auto">
               <h2 className="my-fs-60px fw-semibold ">
                 Updated At:
                 <span className="fs-1">{formatDate(data.updated_at)}</span>

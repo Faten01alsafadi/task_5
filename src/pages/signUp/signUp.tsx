@@ -11,7 +11,7 @@ type signupProps = {
 
 function SignUp(props: signupProps) {
   return (
-    <div className="bg-gradient-orange-to-yellow vh-100 d-flex justify-content-center align-items-center my-color-dark">
+    <div className="my-sm-vh bg-gradient-orange-to-yellow vh-100 d-flex justify-content-center align-items-center my-color-dark">
       <div className=" w-sm-75 w-md-25   my-h-92  my-w-33vw  my-bg-light my-p-15px  my-rounded-20px">
         <div className="my-scroll-box w-100  overflow-y-auto h-100 px-4 pt-5 ">
           <div className="text-center ">

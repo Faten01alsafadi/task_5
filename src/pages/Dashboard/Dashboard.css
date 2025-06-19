@@ -33,6 +33,14 @@
   width: 550px;
 }
 
+@media screen and (max-width: 576px) {
+ 
+  .my-iphonBtn {
+ width: 30%;
+  }
+  
+  
+}
 @media screen and (max-width: 767px) {
   .my-ml-250px {
     margin-left: auto !important;
