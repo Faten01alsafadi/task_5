@@ -1,0 +1,56 @@
+.my-ml-250px {
+  margin-left: 250px !important;
+}
+.search-button {
+  border: 1px solid rgba(229, 229, 229, 1);
+  border-left: none;
+}
+.search-input {
+  border: 1px solid rgba(229, 229, 229, 1);
+  border-right: none !important;
+}
+.search-input:focus {
+  box-shadow: none;
+  border: 1px solid rgba(229, 229, 229, 1) !important;
+  border-right: none !important;
+}
+.btn:hover {
+  border-color: rgba(229, 229, 229, 1) !important;
+}
+.my-my-40px {
+  margin-block: 2.5rem;
+}
+.my-iphonBtn {
+  width: 21%;
+  font-size: clamp(0.66rem, 0.97vw, 0.8rem);
+  margin-bottom: 2rem;
+}
+.my-w-81 {
+  width: 81%;
+}
+.pagination {
+  margin-top: 3rem;
+  width: 550px;
+}
+
+@media screen and (max-width: 767px) {
+  .my-ml-250px {
+    margin-left: auto !important;
+  }
+  .my-my-iphone {
+    margin-block: 1.5rem;
+  }
+  .my-iphonBtn {
+    margin-bottom: 0.8rem;
+  }
+  .pagination {
+    margin-top: 3rem;
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .pagination {
+    margin-top: 3rem;
+    width: 450px;
+  }
+}

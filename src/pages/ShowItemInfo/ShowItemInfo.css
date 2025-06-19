@@ -1,0 +1,79 @@
+.my-fs-60px {
+  font-size: clamp(1.5rem, 4.16vw, 3.75rem);
+}
+.show-product {
+  width: 373px;
+  height: 373px;
+  border-radius: 16px;
+}
+.show-item span {
+  font-weight: 500;
+  color: rgba(128, 128, 128, 0.55);
+}
+.prev-show-btn {
+  width: 40px;
+  height: 40px;
+
+  background-color: rgba(255, 255, 255, 1);
+}
+.prev-show-btn:hover {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid black !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .show-item {
+    width: 83% !important;
+  }
+  .my-fs-60px {
+    font-size: 2rem !important;
+  }
+  .show-item span {
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1440px) {
+  .show-item {
+    width: 83% !important;
+  }
+  .my-fs-60px {
+    font-size: 2.5rem !important;
+  }
+  .show-item span {
+    font-size: 1.9rem !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 575px) {
+  .ShowItemInfo .container {
+    margin-top: 70px !important;
+  }
+  .show-item span {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media (max-height: 600px) and (max-width: 812px) {
+  .show-product {
+    width: 135px;
+    height: 40%;
+  }
+  .container {
+    height: 88vh;
+  }
+  .show-item {
+    height: 100%;
+  }
+  .prev-show-btn {
+    margin-bottom: 0px !important;
+  }
+  .show-h {
+    margin-top: 5px !important;
+  }
+  .my-fs-60px {
+    font-size: 25px;
+  }
+  .show-item span {
+    font-size: 18px !important;
+  }
+}
